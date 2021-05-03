@@ -1,0 +1,7 @@
+.avatar__newServer:hover ~ .avatar__icon {
+  background-color: rgb(92, 166, 133);
+}
+
+.avatar__logo:hover {
+  background-color: #7289da;
+}

@@ -1,13 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import color_code from "./color-code";
 import Server from "./Server";
+import Channel from "./Channel";
+import Chat from "./Chat";
 
 const App = () => {
   return (
     <div>
       <Home>
-        <Server></Server>
+        <Server />
+        <Channel />
+        <Chat />
       </Home>
     </div>
   );
@@ -15,11 +18,10 @@ const App = () => {
 
 export default App;
 
-const Home = styled.h1`
+const Home = styled.div`
+  display: flex;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
-  display: flex;
-  flex: 1;
 `;
