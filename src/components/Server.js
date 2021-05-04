@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import color_code from "./color-code";
-import Add from "@material-ui/icons/Add";
 import "./Server.css";
-import { Explore } from "@material-ui/icons";
+import { Explore, Add } from "@material-ui/icons";
 
 const Server = () => {
   return (
